@@ -1,0 +1,21 @@
+:root {
+  --color-white: #ffffff;
+  --color-ink: #0b3031;
+  --color-ink-soft: #4f6e6f;
+  --color-accent: #0f7f7e;
+  --color-accent-soft: rgba(15, 127, 126, 0.12);
+  --color-secondary: #2b9697;
+  --color-secondary-soft: rgba(43, 150, 151, 0.14);
+  --color-line: rgba(11, 48, 49, 0.12);
+  --color-surface: rgba(255, 255, 255, 0.88);
+  --color-dark-panel: #0a3c3d;
+  --shadow-card: 0 18px 40px rgba(11, 48, 49, 0.08);
+  --shadow-soft: 0 24px 48px rgba(11, 48, 49, 0.1);
+  --radius-md: 1.4rem;
+  --radius-lg: 1.9rem;
+  --radius-pill: 999px;
+  --measure-title: 15ch;
+  --transition: 220ms ease;
+  --font-display: "DM Serif Display", Georgia, "Times New Roman", serif;
+  --font-body: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}

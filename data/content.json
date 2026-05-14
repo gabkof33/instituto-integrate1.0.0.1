@@ -1,0 +1,356 @@
+{
+  "hero": {
+    "heading_primary": "Sobre o Instituto Integratte",
+    "heading_secondary": "O Instituto Integratte nasce da trajetória da Dra. Tamara e de uma visão ampliada da saúde, unindo ciência, tecnologia e escuta qualificada para um cuidado funcional, integral e verdadeiramente personalizado.",
+    "cta_button_primary": "Agendar consulta",
+    "cta_button_secondary": "Conhecer o instituto",
+    "background_image": "",
+    "background_video": ""
+  },
+  "about": {
+    "section_title": "O que é Medicina Funcional de Precisão?",
+    "section_description": "Aqui, você não é apenas mais um diagnóstico: você é único, e a sua história importa.\n\nNa Medicina Funcional de Precisão, vamos além de tratar sintomas isolados. Escutamos você com atenção, investigamos profundamente seu corpo, sua mente e seu estilo de vida para entender, de verdade, o que está por trás dos seus desconfortos e desafios de saúde.\n\nNosso compromisso é acolher suas queixas com cuidado e seriedade, buscando as causas reais e não apenas soluções temporárias. Combinamos ciência avançada a uma abordagem integrativa e personalizada para criar um plano exclusivo para você.",
+    "feature_cards": [
+      {
+        "card_icon": "01",
+        "card_title": "Escuta individualizada",
+        "card_description": "Sua história clínica, sua rotina e seus sinais são considerados com atenção para compreender o quadro de forma completa."
+      },
+      {
+        "card_icon": "02",
+        "card_title": "Investigação profunda",
+        "card_description": "O foco está em entender o que está por trás dos desconfortos e desafios de saúde, indo além da leitura superficial dos sintomas."
+      },
+      {
+        "card_icon": "03",
+        "card_title": "Plano exclusivo",
+        "card_description": "Ciência avançada e abordagem integrativa se unem para restaurar equilíbrio, devolver energia e promover bem-estar de forma personalizada."
+      }
+    ]
+  },
+  "benefits": {
+    "section_title": "Por que escolher a Medicina Funcional de Precisão?",
+    "section_subtitle": "Na Integratte, você encontra muito mais do que um tratamento: um cuidado verdadeiro, individualizado e focado em resultados reais. Unimos ciência de ponta ao cuidado humanizado para desenvolver estratégias totalmente personalizadas, respeitando sua história, suas necessidades e seus objetivos.",
+    "benefits_grid": [
+      {
+        "benefit_icon": "A1",
+        "benefit_title": "Abordagem única",
+        "benefit_text": "Cada pessoa recebe um olhar exclusivo, com estratégias construídas de acordo com sua realidade, suas necessidades e seus objetivos."
+      },
+      {
+        "benefit_icon": "A2",
+        "benefit_title": "Ciência com cuidado humanizado",
+        "benefit_text": "A prática combina evidência científica, escuta qualificada e acompanhamento próximo para um cuidado mais coerente e eficaz."
+      },
+      {
+        "benefit_icon": "A3",
+        "benefit_title": "Saúde integrada",
+        "benefit_text": "Nutrição funcional, suplementação estratégica, equilíbrio hormonal, saúde intestinal, manejo do estresse, exercícios adaptados e terapias mente-corpo atuam de forma complementar."
+      },
+      {
+        "benefit_icon": "A4",
+        "benefit_title": "Resultados consistentes",
+        "benefit_text": "O objetivo é recuperar energia, melhorar a performance no dia a dia e conquistar equilíbrio duradouro, com mais qualidade de vida e bem-estar."
+      }
+    ]
+  },
+  "transformation": {
+    "section_title": "Como a Medicina Funcional de Precisão transforma sua vida?",
+    "section_text_block": "Transformar sua saúde vai muito além de aliviar sintomas: é transformar a forma como você vive todos os dias.\n\nNa Medicina Funcional de Precisão, investigamos seu organismo de maneira profunda e individualizada, identificando os fatores que realmente impactam sua energia, seus hormônios, seu sono e seu equilíbrio emocional. Com base nisso, criamos um plano totalmente personalizado, orientando alimentação, hábitos, sono, manejo do estresse e suplementação de forma estratégica e sustentável.",
+    "highlight_points": [
+      {
+        "point_title": "Investigação do organismo",
+        "point_description": "A análise considera de forma aprofundada os fatores que impactam energia, hormônios, sono e equilíbrio emocional.",
+        "cta_button": "Agende sua consulta"
+      },
+      {
+        "point_title": "Plano estratégico e sustentável",
+        "point_description": "Alimentação, hábitos, sono, manejo do estresse e suplementação são orientados com respaldo científico e foco em resultados reais.",
+        "cta_button": "Comece sua transformação"
+      },
+      {
+        "point_title": "Mudança percebida no dia a dia",
+        "point_description": "O resultado é mais disposição, clareza mental, equilíbrio, qualidade de vida e retomada do controle sobre o próprio corpo.",
+        "cta_button": "Quero saber mais"
+      }
+    ]
+  },
+  "institute": {
+    "section_title": "Nossa trajetória",
+    "image_profile": "",
+    "text_block": "O Instituto Integratte nasce da trajetória da Dra. Tamara, que iniciou seus estudos em medicina integrativa em 2014, movida pela necessidade de compreender profundamente a fisiologia humana antes de qualquer intervenção clínica. Ao longo de sua formação e prática, consolidou uma visão ampliada do organismo, baseada na integração entre fisiologia, bioquímica e biofísica, compreendendo que nenhum sistema funciona de forma isolada.\n\nEssa evolução trouxe a convicção de que tratar apenas sintomas não é suficiente, sendo essencial investigar causas e respeitar a individualidade biológica de cada pessoa. Com o crescimento dessa abordagem e a demanda por um cuidado mais completo e estruturado, surgiu a necessidade de criar um espaço clínico que reunisse profissionais alinhados aos mesmos princípios.\n\nAssim surge a Integratte: um ambiente dedicado à saúde integral e medicina funcional, onde ciência, tecnologia e escuta qualificada se unem para oferecer um cuidado verdadeiramente personalizado. Cada paciente é avaliado de forma única, considerando seu histórico clínico, estilo de vida, fatores ambientais e padrões metabólicos.\n\nMais do que tratar doenças, o propósito da Integratte é restaurar o equilíbrio do organismo e promover uma vida mais saudável, funcional e plena, alinhada à medicina moderna e aos princípios da individualidade e precisão clínica.",
+    "timeline": [
+      {
+        "year": "2014",
+        "title": "Início da jornada",
+        "description": "A Dra. Tamara inicia seus estudos em medicina integrativa com foco em compreender profundamente a fisiologia humana."
+      },
+      {
+        "year": "Evolução",
+        "title": "Visão ampliada do organismo",
+        "description": "A prática passa a integrar fisiologia, bioquímica e biofísica, reforçando a importância de investigar causas e respeitar a individualidade biológica."
+      },
+      {
+        "year": "Integratte",
+        "title": "Nascimento do instituto",
+        "description": "Surge um espaço clínico dedicado à saúde integral, reunindo profissionais alinhados a um cuidado mais completo, funcional e personalizado."
+      }
+    ]
+  },
+  "programs": {
+    "section_title": "Programas e Tecnologias Integratte",
+    "section_subtitle": "Conheça protocolos e abordagens desenvolvidos para tratar a origem dos desequilíbrios, acelerar resultados e sustentar saúde com mais precisão clínica.",
+    "items": [
+      {
+        "title": "DSI",
+        "tagline": "Mais do que perder peso, o DSI busca restaurar a saúde, destravar o funcionamento do organismo e permitir que o corpo volte a trabalhar a seu favor.",
+        "summary": "Programa com duração aproximada de nove meses, criado para tratar o sobrepeso de forma ampla e inteligente, investigando inflamação, desequilíbrios hormonais, sobrecarga tóxica e alterações metabólicas que dificultam o emagrecimento.\n\nO foco está em recuperar o terreno biológico, otimizar as vias naturais de desintoxicação e reativar funções essenciais do organismo. Com acompanhamento clínico ao longo de todas as fases, o DSI busca reduzir inflamações, melhorar a energia e promover perda de peso consistente com base sólida para manutenção dos resultados.",
+        "image": "/static/team/dsi.jpeg"
+      },
+      {
+        "title": "FAST",
+        "tagline": "Emagrecimento Inteligente, Rápido e Saudável.",
+        "summary": "Programa exclusivo de curto prazo para acelerar a perda de gordura de forma estratégica, segura e personalizada, sem recorrer a métodos agressivos ou difíceis de manter.\n\nO FAST atua diretamente no metabolismo para estimular o uso mais eficiente da gordura como fonte de energia, preservando massa muscular e melhorando a disposição. Todo o processo conta com acompanhamento próximo de nutricionista e ajustes conforme rotina, necessidades e objetivos.",
+        "image": "/static/team/fast.jpeg"
+      },
+      {
+        "title": "Fertilidade",
+        "tagline": "Um olhar funcional e integrativo para a gestação.",
+        "summary": "Na Integratte, a fertilidade é trabalhada de forma integral, com preparo do corpo e da mente para criar um ambiente mais equilibrado, saudável e favorável à concepção.\n\nA investigação considera fatores hormonais, inflamatórios, metabólicos, emocionais e hábitos de vida. Com experiência em ginecologia e obstetrícia, a Dra. Tamara conduz esse cuidado com escuta sensível, estratégia individualizada e suporte contínuo ao longo da jornada.",
+        "image": "/static/team/fertilidade.jpeg"
+      },
+      {
+        "title": "Infrashape",
+        "tagline": "A nova era do emagrecimento inteligente.",
+        "summary": "Tecnologia de última geração que combina exercício estratégico, infravermelho e pressão negativa para acelerar o metabolismo e potencializar a queima de gordura de forma mais eficiente.\n\nA sessão favorece maior gasto energético, melhora da circulação, oxigenação dos tecidos, drenagem linfática e redução de retenção de líquidos. O resultado é um corpo mais ativo, menos inflamado e com melhor resposta metabólica ao longo do dia.",
+        "image": "/static/team/Infrashape.png"
+      },
+      {
+        "title": "Modulação Hormonal",
+        "tagline": "Precisão clínica e abordagem individualizada.",
+        "summary": "Indicada para pessoas com sinais persistentes de desregulação hormonal, como fadiga, ansiedade, queda de libido, oscilações de humor e baixa performance física e mental.\n\nNa Integratte, a modulação hormonal integra sintomas, estilo de vida, exames e funcionamento global do organismo para construir uma estratégia precisa e personalizada. As consultas são aprofundadas, com tempo adequado para investigação detalhada e escuta qualificada.",
+        "image": "/static/team/modulacao.jpeg"
+      },
+      {
+        "title": "Protocolo EVOS + Infrashape",
+        "tagline": "Tecnologia avançada para otimização metabólica e remodelação corporal.",
+        "summary": "Abordagem intensiva de cinco dias consecutivos que combina estímulo fisiológico, suporte nutricional e tecnologia de alta performance para favorecer redução de gordura e melhora da composição corporal.\n\nO protocolo integra suplementação personalizada com o Infrashape, reunindo infravermelho, exercício ativo assistido e pressão negativa para estimular metabolismo, circulação, drenagem linfática e remodelação corporal. A proposta é gerar resposta rápida, estruturada e segura, com sensação de leveza, ativação e bem-estar global.",
+        "image": "/static/team/evos.jpeg"
+      },
+      {
+        "title": "REGENERA",
+        "tagline": "Restauração da saúde celular e otimização da energia vital.",
+        "summary": "Programa exclusivo voltado à detoxificação funcional e celular, com foco na restauração da energia vital, na otimização do metabolismo e no suporte à renovação mitocondrial.\n\nO Regenera atua sobre sobrecargas sistêmicas que impactam disposição, clareza mental, imunidade e capacidade de recuperação. A proposta é reorganizar o funcionamento interno, reduzir inflamações, melhorar a comunicação celular e favorecer um verdadeiro reset biológico com mais energia e eficiência metabólica.",
+        "image": "/static/team/regenera.jpeg"
+      }
+    ]
+  },
+  "missionVisionValues": {
+    "mission_block": {
+      "title": "Missão",
+      "description": "Promover uma abordagem funcional da saúde, unindo a medicina convencional a práticas complementares de forma responsável e eficaz. Nosso propósito é otimizar a saúde física e mental, incentivando o desenvolvimento de uma consciência mais profunda em cada indivíduo. Acreditamos que cada paciente transformado se torna um agente de mudança, contribuindo para a disseminação de práticas de saúde mais sustentáveis e inovadoras."
+    },
+    "vision_block": {
+      "title": "Visão",
+      "description": "Ser referência na transformação de vidas por meio da medicina funcional, ampliando o acesso à saúde e ao bem-estar. Buscamos um futuro em que a consciência sustentável e o cuidado com o corpo e a mente se multipliquem, contribuindo para a construção de uma sociedade mais saudável, equilibrada e harmoniosa."
+    },
+    "values_cards": [
+      {
+        "value_title": "Ética e Credibilidade",
+        "value_description": "Atuamos com integridade, transparência e responsabilidade, construindo relações de confiança por meio da excelência e da consistência em nossos serviços."
+      },
+      {
+        "value_title": "Respeito e Empatia",
+        "value_description": "Valorizamos a diversidade e tratamos cada pessoa com igualdade, sensibilidade e escuta ativa, compreendendo suas necessidades de forma genuína."
+      },
+      {
+        "value_title": "Humanização e Acolhimento",
+        "value_description": "Reconhecemos a individualidade de cada paciente, oferecendo um atendimento próximo, compassivo, personalizado e acolhedor."
+      },
+      {
+        "value_title": "Educação e Ciência",
+        "value_description": "Priorizamos o aprendizado contínuo e fundamentamos nossas práticas em evidências científicas, garantindo tratamentos seguros, eficazes e atualizados."
+      },
+      {
+        "value_title": "Comprometimento",
+        "value_description": "Dedicamo-nos a oferecer o melhor cuidado possível, buscando constantemente evoluir e superar as expectativas de nossos pacientes."
+      }
+    ]
+  },
+  "team": {
+    "section_title": "Equipe Integratte",
+    "section_subtitle": "Conheça os profissionais que compõem a Integratte e sustentam um cuidado clínico individualizado, funcional e integrado.",
+    "members": [
+      {
+        "role": "Sócia-proprietária",
+        "name": "Dra. Tamara Mendes",
+        "image": "/static/team/Dra_Tamara_atualizada.png",
+        "qualifications": [
+          "Graduada pela Universidade de Passo Fundo - RS (1998).",
+          "Residência médica em Obstetrícia - SCMRJ.",
+          "Residência médica em Ginecologia e Obstetrícia - Hospital Maternidade Carmela Dutra / Hospital Piedade - RJ.",
+          "Residência médica em endoscopia ginecológica - Hospital dos Servidores do Estado do RJ.",
+          "Pós-graduação em Medicina Integrativa - Uniube.",
+          "Pós-graduação em Nutrologia - Verbomed.",
+          "Cursos de Medicina Funcional e Integrativa pelo CMI (Dr. Artur Lemos), AMBBDORT e ABMFI (Associação Brasileira de Medicina Funcional e Integrativa).",
+          "Médica voluntária no ambulatório e em cursos de Medicina Integrativa pela Fundação ACL - SP / AMBBDORT."
+        ]
+      },
+      {
+        "role": "Sócio-proprietário",
+        "name": "Dr. Mauricio Pereira Chimeli",
+        "image": "/static/team/Dr_Mauricio_atualizado.png",
+        "qualifications": [
+          "Graduado em Medicina pela UERJ (1982).",
+          "Residência médica em Otorrinolaringologia - UERJ.",
+          "Especialização em administração hospitalar - UERJ (1985).",
+          "Formação em varizes e úlceras de perna desde 1982.",
+          "Formação em Medicina Antroposófica com certificação pela ABMA e certificação internacional por DORNA - Suíça.",
+          "Formação em Medicina Endocanabinoide com certificação pela WeCann Academy.",
+          "Curso de Medicina Integrativa pela AMBBDORT.",
+          "Pós-graduação em Medicina Integrativa - Uniube.",
+          "Médico voluntário na AMBBDORT.",
+          "Vice-presidente da ABMA.",
+          "Vice-presidente do Colégio Médico Brasileiro de Ozonioterapia."
+        ]
+      },
+      {
+        "role": "Nutricionista",
+        "name": "Dra. Christiane Urzedo",
+        "image": "",
+        "qualifications": [
+          "Graduada em Nutrição pelo Centro Universitário do Triângulo Mineiro - Uberlândia, MG (2019).",
+          "Curso de emagrecimento avançado 'Ana Paula Pujol Saúde da Mulher'.",
+          "Curso Ana Paula Pujol - Jejum intermitente.",
+          "Atua na área de nutrição clínica da Integratte.",
+          "Pós-graduação em Nutrição Funcional Integrativa - Luciano Bruno."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "section_title": "Fale com a Integratte",
+    "section_subtitle": "Estamos prontos para acolher você com clareza, atenção e cuidado humano. Envie sua mensagem e nossa equipe entrará em contato.",
+    "input_name": "Seu nome",
+    "input_email": "Seu e-mail",
+    "input_phone": "Seu WhatsApp",
+    "textarea_message": "Conte como podemos ajudar você",
+    "submit_button": "Enviar mensagem"
+  },
+  "cta": {
+    "cta_title": "Agende sua consulta e comece essa transformação.",
+    "cta_subtitle": "Se você busca um cuidado profundo, individualizado e focado em causas reais, este é o seu lugar.",
+    "cta_button": "Agendar consulta"
+  },
+  "location": {
+    "address": "R. Vital Macedo, 366 - Tabajaras, Uberlândia - MG, 38400-290",
+    "phone": "(34) 3306-5700",
+    "hours": [
+      {
+        "day": "Segunda-feira",
+        "times": "08:00 - 21:00",
+        "closed": false
+      },
+      {
+        "day": "Terça-feira",
+        "times": "08:00 - 21:00",
+        "closed": false
+      },
+      {
+        "day": "Quarta-feira",
+        "times": "08:00 - 21:00",
+        "closed": false
+      },
+      {
+        "day": "Quinta-feira",
+        "times": "08:00 - 21:00",
+        "closed": false
+      },
+      {
+        "day": "Sexta-feira (Dia do Trabalhador)",
+        "times": "08:00 - 21:00",
+        "closed": false
+      },
+      {
+        "day": "Sábado",
+        "times": "Fechado",
+        "closed": true
+      },
+      {
+        "day": "Domingo",
+        "times": "Fechado",
+        "closed": true
+      }
+    ]
+  },
+  "footer": {
+    "logo": "Instituto Integratte",
+    "brand_subtitle": "Medicina Funcional de Precisão",
+    "navigation_links": [
+      {
+        "label": "Início",
+        "href": "#hero",
+        "icon": "home"
+      },
+      {
+        "label": "Medicina Funcional",
+        "href": "#about",
+        "icon": "spark"
+      },
+      {
+        "label": "Benefícios",
+        "href": "#benefits",
+        "icon": "pulse"
+      },
+      {
+        "label": "Instituto",
+        "href": "#institute",
+        "icon": "clinic"
+      },
+      {
+        "label": "Equipe",
+        "href": "#team",
+        "icon": "team"
+      },
+      {
+        "label": "Contato",
+        "href": "#contact",
+        "icon": "contact"
+      }
+    ],
+    "social_links": [
+      {
+        "name": "WhatsApp",
+        "label": "(34) 99678-5700",
+        "href": "https://wa.me/5534996785700",
+        "icon": "whatsapp"
+      },
+      {
+        "name": "Email",
+        "label": "administrativo@integratte.com.br",
+        "href": "mailto:administrativo@integratte.com.br",
+        "icon": "email"
+      },
+      {
+        "name": "Instagram Instituto",
+        "label": "@intitutointegratte",
+        "href": "https://instagram.com/intitutointegratte",
+        "icon": "instagram"
+      },
+      {
+        "name": "Dra Tamara",
+        "label": "@dratamaramendes",
+        "href": "https://instagram.com/dratamaramendes",
+        "icon": "instagram"
+      },
+      {
+        "name": "Dr Maurício",
+        "label": "@drmauriciochimeli",
+        "href": "https://instagram.com/drmauriciochimeli",
+        "icon": "instagram"
+      }
+    ],
+    "contact_info": "Medicina Funcional de Precisão com foco em clareza, confiança e cuidado humano",
+    "copyright_text": "Instituto Integratte. Todos os direitos reservados."
+  }
+}
