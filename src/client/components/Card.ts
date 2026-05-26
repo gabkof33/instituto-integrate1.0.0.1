@@ -37,7 +37,7 @@ export function renderHighlightCard(point: HighlightPoint) {
 
 export function renderValueCard(card: ValueCard, badge: string) {
   return `
-    <article class="card" data-animate>
+    <article class="card card--value" data-animate>
       <span class="icon-badge">${escapeHtml(badge)}</span>
       <h3 class="card__title">${escapeHtml(card.value_title)}</h3>
       <p class="card__text">${escapeHtml(card.value_description)}</p>

@@ -1,10 +1,13 @@
 import express from "express";
 import path from "node:path";
+import { loadEnvironment } from "./config/loadEnv.js";
 import { clientDir, clientIndexPath } from "./config/paths.js";
 import { contactRoutes } from "./routes/contactRoutes.js";
 import { contentRoutes } from "./routes/contentRoutes.js";
 
 export function createApp() {
+  loadEnvironment();
+
   const app = express();
 
   app.disable("x-powered-by");

@@ -21,16 +21,27 @@ async function readSubmissions() {
 }
 
 export async function createContactSubmission(payload: ContactPayload) {
-  const submissions = await readSubmissions();
-
   const submission: ContactSubmission = {
     id: randomUUID(),
     createdAt: new Date().toISOString(),
     ...payload
   };
 
-  submissions.push(submission);
-  await writeFile(contactSubmissionsFilePath, `${JSON.stringify(submissions, null, 2)}\n`, "utf8");
+  try {
+    const submissions = await readSubmissions();
+    submissions.push(submission);
+    await writeFile(contactSubmissionsFilePath, `${JSON.stringify(submissions, null, 2)}\n`, "utf8");
 
-  return submission;
+    return {
+      submission,
+      saved: true
+    };
+  } catch (error) {
+    console.warn("Nao foi possivel persistir o contato em disco.", error);
+
+    return {
+      submission,
+      saved: false
+    };
+  }
 }

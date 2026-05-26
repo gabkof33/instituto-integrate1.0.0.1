@@ -25,10 +25,25 @@ function findProjectRoot(startDir: string) {
 
 const runtimeDir = path.dirname(fileURLToPath(import.meta.url));
 
-export const projectRoot = findProjectRoot(runtimeDir);
+function resolveProjectRoot() {
+  const currentWorkingDirectory = process.cwd();
+  const hasProjectFiles =
+    existsSync(path.join(currentWorkingDirectory, "package.json")) &&
+    existsSync(path.join(currentWorkingDirectory, "data", "content.json"));
+
+  if (hasProjectFiles) {
+    return currentWorkingDirectory;
+  }
+
+  return findProjectRoot(runtimeDir);
+}
+
+export const projectRoot = resolveProjectRoot();
 export const dataDir = path.join(projectRoot, "data");
 export const distDir = path.join(projectRoot, "dist");
 export const clientDir = path.join(distDir, "client");
 export const clientIndexPath = path.join(clientDir, "index.html");
 export const contentFilePath = path.join(dataDir, "content.json");
-export const contactSubmissionsFilePath = path.join(dataDir, "contact-submissions.json");
+export const contactStorageDir =
+  process.env.CONTACT_STORAGE_DIR?.trim() || (process.env.VERCEL ? path.join("/tmp", "integratte-data") : dataDir);
+export const contactSubmissionsFilePath = path.join(contactStorageDir, "contact-submissions.json");

@@ -13,7 +13,9 @@
     "export:reels:p3": "node ./scripts/export-reels-page-3.mjs"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "@types/nodemailer": "^8.0.0",
+    "express": "^4.18.2",
+    "nodemailer": "^8.0.8"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",

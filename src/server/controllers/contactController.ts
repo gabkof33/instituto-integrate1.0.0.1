@@ -1,28 +1,27 @@
 import type { Request, Response } from "express";
-import { createContactSubmission } from "../services/contactService.js";
-
-function getString(value: unknown) {
-  return typeof value === "string" ? value.trim() : "";
-}
+import { isContactPayloadValid, normalizeContactPayload, submitContactPayload } from "../services/contactWorkflow.js";
 
 export async function submitContact(request: Request, response: Response) {
-  const payload = {
-    name: getString(request.body?.name),
-    email: getString(request.body?.email),
-    phone: getString(request.body?.phone),
-    message: getString(request.body?.message)
-  };
+  const payload = normalizeContactPayload(request.body);
 
-  if (!payload.name || !payload.email || !payload.phone || !payload.message) {
+  if (!isContactPayloadValid(payload)) {
     response.status(400).json({ message: "Todos os campos sao obrigatorios." });
     return;
   }
 
   try {
-    const submission = await createContactSubmission(payload);
-    response.status(201).json({ success: true, submission });
+    const result = await submitContactPayload(payload);
+
+    response.status(201).json({
+      success: true,
+      ...result
+    });
   } catch (error) {
     console.error(error);
-    response.status(500).json({ message: "Nao foi possivel salvar o contato." });
+    response.status(502).json({
+      success: false,
+      message:
+        "Recebemos sua mensagem, mas nao foi possivel notificar a equipe por e-mail agora. Tente novamente em instantes."
+    });
   }
 }

@@ -65,15 +65,20 @@ function bindContactForm() {
         body: JSON.stringify(payload)
       });
 
+      const result = (await response.json().catch(() => null)) as { message?: string } | null;
+
       if (!response.ok) {
-        throw new Error(`Falha ao enviar contato: ${response.status}`);
+        throw new Error(result?.message || `Falha ao enviar contato: ${response.status}`);
       }
 
       form.reset();
-      setContactStatus("Mensagem enviada com sucesso. Em breve entraremos em contato.");
+      setContactStatus(result?.message || "Mensagem enviada com sucesso. Em breve entraremos em contato.");
     } catch (error) {
       console.error(error);
-      setContactStatus("Nao foi possivel enviar agora. Tente novamente em instantes.", true);
+      setContactStatus(
+        error instanceof Error ? error.message : "Nao foi possivel enviar agora. Tente novamente em instantes.",
+        true
+      );
     }
   });
 }
