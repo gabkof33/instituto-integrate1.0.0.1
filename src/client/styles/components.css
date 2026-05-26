@@ -781,8 +781,12 @@
 }
 
 .program-card__media {
+  width: 100%;
+  max-width: 22rem;
   min-height: 0;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 1 / 1;
+  margin-inline: auto;
+  align-self: start;
   border: 1px solid rgba(15, 127, 126, 0.12);
   border-radius: calc(var(--radius-md) + 4px);
   overflow: hidden;
@@ -799,6 +803,7 @@
 }
 
 .program-card__image {
+  display: block;
   object-fit: cover;
   object-position: center;
 }
@@ -1106,10 +1111,6 @@
     padding: 1.35rem;
   }
 
-  .program-card__media {
-    aspect-ratio: 16 / 9;
-  }
-
   .section__inner--map {
     grid-template-columns: 1fr 1.2fr;
     gap: 3rem;
@@ -1390,13 +1391,8 @@
   }
 
   .program-card__media {
-    aspect-ratio: auto;
-    min-height: 100%;
-  }
-
-  .program-card__image,
-  .program-card__placeholder {
-    min-height: 100%;
+    justify-self: end;
+    margin-inline: 0;
   }
 
 }
@@ -1521,7 +1517,7 @@
   }
 
   .program-card__media {
-    min-height: 11rem;
+    max-width: 20rem;
   }
 
   .site-footer__brand-lockup {
