@@ -105,43 +105,43 @@
         "title": "DSI",
         "tagline": "Mais do que perder peso, o DSI busca restaurar a saúde, destravar o funcionamento do organismo e permitir que o corpo volte a trabalhar a seu favor.",
         "summary": "Programa com duração aproximada de nove meses, criado para tratar o sobrepeso de forma ampla e inteligente, investigando inflamação, desequilíbrios hormonais, sobrecarga tóxica e alterações metabólicas que dificultam o emagrecimento.\n\nO foco está em recuperar o terreno biológico, otimizar as vias naturais de desintoxicação e reativar funções essenciais do organismo. Com acompanhamento clínico ao longo de todas as fases, o DSI busca reduzir inflamações, melhorar a energia e promover perda de peso consistente com base sólida para manutenção dos resultados.",
-        "image": "/static/team/dsi.jpeg"
+        "image": "/static/team/dsi_1080x1080.jpg"
       },
       {
         "title": "FAST",
         "tagline": "Emagrecimento Inteligente, Rápido e Saudável.",
         "summary": "Programa exclusivo de curto prazo para acelerar a perda de gordura de forma estratégica, segura e personalizada, sem recorrer a métodos agressivos ou difíceis de manter.\n\nO FAST atua diretamente no metabolismo para estimular o uso mais eficiente da gordura como fonte de energia, preservando massa muscular e melhorando a disposição. Todo o processo conta com acompanhamento próximo de nutricionista e ajustes conforme rotina, necessidades e objetivos.",
-        "image": "/static/team/fast.jpeg"
+        "image": "/static/team/fast_1080x1080.jpg"
       },
       {
         "title": "Fertilidade",
         "tagline": "Um olhar funcional e integrativo para a gestação.",
         "summary": "Na Integratte, a fertilidade é trabalhada de forma integral, com preparo do corpo e da mente para criar um ambiente mais equilibrado, saudável e favorável à concepção.\n\nA investigação considera fatores hormonais, inflamatórios, metabólicos, emocionais e hábitos de vida. Com experiência em ginecologia e obstetrícia, a Dra. Tamara conduz esse cuidado com escuta sensível, estratégia individualizada e suporte contínuo ao longo da jornada.",
-        "image": "/static/team/fertilidade.jpeg"
+        "image": "/static/team/fertilidade_1080x1080.jpg"
       },
       {
         "title": "Infrashape",
         "tagline": "A nova era do emagrecimento inteligente.",
         "summary": "Tecnologia de última geração que combina exercício estratégico, infravermelho e pressão negativa para acelerar o metabolismo e potencializar a queima de gordura de forma mais eficiente.\n\nA sessão favorece maior gasto energético, melhora da circulação, oxigenação dos tecidos, drenagem linfática e redução de retenção de líquidos. O resultado é um corpo mais ativo, menos inflamado e com melhor resposta metabólica ao longo do dia.",
-        "image": "/static/team/Infrashape.png"
+        "image": "/static/team/Infrashape.jpg"
       },
       {
         "title": "Modulação Hormonal",
         "tagline": "Precisão clínica e abordagem individualizada.",
         "summary": "Indicada para pessoas com sinais persistentes de desregulação hormonal, como fadiga, ansiedade, queda de libido, oscilações de humor e baixa performance física e mental.\n\nNa Integratte, a modulação hormonal integra sintomas, estilo de vida, exames e funcionamento global do organismo para construir uma estratégia precisa e personalizada. As consultas são aprofundadas, com tempo adequado para investigação detalhada e escuta qualificada.",
-        "image": "/static/team/modulacao.jpeg"
+        "image": "/static/team/modulacao_1080x1080.png"
       },
       {
         "title": "Protocolo EVOS + Infrashape",
         "tagline": "Tecnologia avançada para otimização metabólica e remodelação corporal.",
         "summary": "Abordagem intensiva de cinco dias consecutivos que combina estímulo fisiológico, suporte nutricional e tecnologia de alta performance para favorecer redução de gordura e melhora da composição corporal.\n\nO protocolo integra suplementação personalizada com o Infrashape, reunindo infravermelho, exercício ativo assistido e pressão negativa para estimular metabolismo, circulação, drenagem linfática e remodelação corporal. A proposta é gerar resposta rápida, estruturada e segura, com sensação de leveza, ativação e bem-estar global.",
-        "image": "/static/team/evos.jpeg"
+        "image": "/static/team/evo_1080x1080.png"
       },
       {
         "title": "REGENERA",
         "tagline": "Restauração da saúde celular e otimização da energia vital.",
         "summary": "Programa exclusivo voltado à detoxificação funcional e celular, com foco na restauração da energia vital, na otimização do metabolismo e no suporte à renovação mitocondrial.\n\nO Regenera atua sobre sobrecargas sistêmicas que impactam disposição, clareza mental, imunidade e capacidade de recuperação. A proposta é reorganizar o funcionamento interno, reduzir inflamações, melhorar a comunicação celular e favorecer um verdadeiro reset biológico com mais energia e eficiência metabólica.",
-        "image": "/static/team/regenera.jpeg"
+        "image": "/static/team/regenera_1080x1080.png"
       }
     ]
   },
