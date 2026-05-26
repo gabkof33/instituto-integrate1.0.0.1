@@ -28,15 +28,26 @@ function revealOnScroll(root: ParentNode) {
 function setupHeaderMenu(root: ParentNode) {
   const header = root.querySelector<HTMLElement>("[data-header]");
   const toggle = root.querySelector<HTMLButtonElement>("[data-header-toggle]");
+  const panel = root.querySelector<HTMLElement>("[data-header-panel]");
   const links = Array.from(root.querySelectorAll<HTMLElement>("[data-header-link]"));
 
   if (!header || !toggle) {
     return;
   }
 
+  const isDesktopViewport = () => window.innerWidth > 980;
+
   const setOpen = (isOpen: boolean) => {
-    header.classList.toggle("site-header--menu-open", isOpen);
-    toggle.setAttribute("aria-expanded", String(isOpen));
+    const isDesktop = isDesktopViewport();
+    const nextState = !isDesktop && isOpen;
+
+    header.classList.toggle("site-header--menu-open", nextState);
+    toggle.setAttribute("aria-expanded", String(nextState));
+    toggle.setAttribute("aria-label", nextState ? "Fechar menu" : "Abrir menu");
+
+    if (panel) {
+      panel.setAttribute("aria-hidden", String(!isDesktop && !nextState));
+    }
   };
 
   toggle.addEventListener("click", () => {
@@ -48,11 +59,29 @@ function setupHeaderMenu(root: ParentNode) {
     link.addEventListener("click", () => setOpen(false));
   });
 
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 980) {
+  document.addEventListener("click", (event) => {
+    if (isDesktopViewport() || !header.classList.contains("site-header--menu-open")) {
+      return;
+    }
+
+    if (event.target instanceof Node && !header.contains(event.target)) {
       setOpen(false);
     }
   });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      setOpen(false);
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (isDesktopViewport()) {
+      setOpen(false);
+    }
+  });
+
+  setOpen(false);
 }
 
 function setupProgramCarousel(root: ParentNode) {

@@ -90,11 +90,6 @@ function renderSiteHeader(content: FooterContent) {
           </span>
         </a>
         <div class="site-header__controls">
-          <div class="site-header__panel">
-            <nav class="site-header__nav" id="site-navigation" aria-label="Navegação principal">
-              ${content.navigation_links.map((link) => renderHeaderLink(link)).join("")}
-            </nav>
-          </div>
           <button
             class="site-header__menu-button"
             type="button"
@@ -107,6 +102,11 @@ function renderSiteHeader(content: FooterContent) {
             <span class="site-header__menu-bar"></span>
             <span class="site-header__menu-bar"></span>
           </button>
+        </div>
+        <div class="site-header__panel" data-header-panel aria-hidden="true">
+          <nav class="site-header__nav" id="site-navigation" aria-label="Navegação principal">
+            ${content.navigation_links.map((link) => renderHeaderLink(link)).join("")}
+          </nav>
         </div>
       </div>
     </header>
