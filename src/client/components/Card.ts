@@ -13,9 +13,11 @@ export function renderFeatureCard(card: FeatureCard) {
 
 export function renderBenefitCard(item: BenefitItem) {
   return `
-    <article class="card" data-animate>
-      <span class="icon-badge icon-badge--soft">${escapeHtml(item.benefit_icon)}</span>
-      <h3 class="card__title">${escapeHtml(item.benefit_title)}</h3>
+    <article class="card card--benefit" data-animate>
+      <div class="card__header card__header--benefit">
+        <span class="icon-badge icon-badge--soft">${escapeHtml(item.benefit_icon)}</span>
+        <h3 class="card__title">${escapeHtml(item.benefit_title)}</h3>
+      </div>
       <p class="card__text">${escapeHtml(item.benefit_text)}</p>
     </article>
   `;
