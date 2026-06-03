@@ -625,6 +625,13 @@
   min-height: 16rem;
 }
 
+.card--highlight .button {
+  width: 100%;
+  padding-inline: 0.75rem;
+  white-space: nowrap;
+  font-size: clamp(0.76rem, 0.9vw, 0.86rem);
+}
+
 .card__title,
 .timeline__title,
 .program-card__title,
@@ -769,6 +776,7 @@
 .program-carousel__viewport {
   grid-area: viewport;
   display: flex;
+  align-items: stretch;
   gap: 0;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -783,6 +791,7 @@
 }
 
 .program-carousel__slide {
+  display: flex;
   flex: 0 0 100%;
   min-width: 100%;
   scroll-snap-align: start;
@@ -790,6 +799,8 @@
 
 .program-card {
   display: grid;
+  width: 100%;
+  min-height: 100%;
   gap: 1.2rem;
   padding: 1.2rem;
   border: 1px solid var(--color-line);
