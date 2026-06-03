@@ -31,6 +31,25 @@ function setContactStatus(message: string, isError = false) {
   statusElement.style.color = isError ? "#9d2c2c" : "";
 }
 
+function buildWhatsAppMessage(payload: ContactPayload) {
+  return [
+    "Olá, Instituto Integratte! Vim pelo site e gostaria de atendimento.",
+    "",
+    `Nome: ${payload.name}`,
+    `E-mail: ${payload.email}`,
+    `WhatsApp: ${payload.phone}`,
+    "",
+    `Mensagem: ${payload.message}`
+  ].join("\n");
+}
+
+function buildWhatsAppUrl(baseUrl: string, payload: ContactPayload) {
+  const url = new URL(baseUrl);
+  url.searchParams.set("text", buildWhatsAppMessage(payload));
+
+  return url.toString();
+}
+
 function bindContactForm() {
   const form = document.querySelector<HTMLFormElement>("[data-contact-form]");
 
@@ -54,29 +73,20 @@ function bindContactForm() {
       return;
     }
 
-    setContactStatus("Enviando mensagem...");
-
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(payload)
-      });
+      const whatsappUrl = buildWhatsAppUrl(form.dataset.whatsappUrl ?? "", payload);
+      const whatsappWindow = window.open(whatsappUrl, "_blank", "noopener,noreferrer");
 
-      const result = (await response.json().catch(() => null)) as { message?: string } | null;
-
-      if (!response.ok) {
-        throw new Error(result?.message || `Falha ao enviar contato: ${response.status}`);
+      if (!whatsappWindow) {
+        window.location.href = whatsappUrl;
       }
 
       form.reset();
-      setContactStatus(result?.message || "Mensagem enviada com sucesso. Em breve entraremos em contato.");
+      setContactStatus("Abrimos o WhatsApp com sua mensagem pronta para envio.");
     } catch (error) {
       console.error(error);
       setContactStatus(
-        error instanceof Error ? error.message : "Nao foi possivel enviar agora. Tente novamente em instantes.",
+        "Nao foi possivel abrir o WhatsApp agora. Use o contato no rodape da pagina.",
         true
       );
     }

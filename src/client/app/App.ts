@@ -113,6 +113,14 @@ function renderSiteHeader(content: FooterContent) {
   `;
 }
 
+function getWhatsAppHref(content: FooterContent) {
+  return (
+    content.social_links.find(
+      (link) => link.icon === "whatsapp" || link.name?.toLocaleLowerCase("pt-BR").includes("whatsapp")
+    )?.href ?? "https://wa.me/5534996785700"
+  );
+}
+
 function renderInstituteMedia(imageProfile: string) {
   if (imageProfile) {
     return `<img class="media-frame__image" src="${escapeHtml(imageProfile)}" alt="Imagem aqui" />`;
@@ -307,7 +315,7 @@ export function renderApp(content: SiteContent) {
               ${renderSectionHeader(content.contact.section_title, content.contact.section_subtitle)}
             </div>
             <div class="contact-panel" data-animate>
-              ${renderContactForm(content.contact)}
+              ${renderContactForm(content.contact, getWhatsAppHref(content.footer))}
             </div>
           </div>
         </section>

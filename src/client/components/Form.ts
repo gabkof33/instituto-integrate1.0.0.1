@@ -1,9 +1,9 @@
 import type { ContactContent } from "../../shared/content.js";
-import { escapeHtml } from "../utils/escapeHtml.js";
+import { escapeHtml, safeHref } from "../utils/escapeHtml.js";
 
-export function renderContactForm(content: ContactContent) {
+export function renderContactForm(content: ContactContent, whatsappHref: string) {
   return `
-    <form class="contact-form" data-contact-form novalidate>
+    <form class="contact-form" data-contact-form data-whatsapp-url="${escapeHtml(safeHref(whatsappHref))}" novalidate>
       <div class="contact-form__grid">
         <label class="field">
           <span class="field__label">Nome</span>
